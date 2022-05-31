@@ -6,7 +6,7 @@ import PT from 'prop-types'
 
 
 export default function Articles(props) {
-  const { getArticles,  articles, deleteArticle, putArticle } = props
+  const { getArticles,  articles, deleteArticle, putArticle} = props
 const navigate = useNavigate()
   // ✨ where are my props? Destructure them here
  

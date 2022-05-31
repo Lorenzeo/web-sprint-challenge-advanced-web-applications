@@ -144,7 +144,7 @@ export default function App() {
       console.log(res)
       setMessage(res.data.message)
       setArticles(articles.filter(art => {
-        return art.articles_id !== article_id
+        art.articles_id !== article_id
       }))
     })
     .catch(err =>{
